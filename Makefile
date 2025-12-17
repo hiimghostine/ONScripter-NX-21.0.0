@@ -88,7 +88,7 @@ LIBS	:=  `sdl2-config --libs`  `smpeg2-config --libs` \
 			-L/opt/devkitpro/portlibs/switch/lib  -lSDL2_image \
 		   	-L/opt/devkitpro/portlibs/switch/lib  -lz -lm \
 		   	-L/opt/devkitpro/portlibs/switch/lib  -lz -ljpeg -lwebp -lm -lnx \
-			-L/opt/devkitpro/portlibs/switch/lib  -lfreetype -lbz2 \
+			-L/opt/devkitpro/portlibs/switch/lib  -lfreetype -lharfbuzz -lbz2 \
 		   	-L/opt/devkitpro/portlibs/switch/lib  -lz -lpng16 -lm -lz -lSDL2_mixer -lSDL2 \
 		       									  -march=armv8-a -fPIE -lEGL -lglapi \
 												  -ldrm_nouveau -lnx -lpthread \
